@@ -1,1 +1,31 @@
 theme: jekyll-theme-modernist
+
+show_downloads: false
+
+# Site settings
+title: Oliver's Blog
+email: oliver.tupran@gmail.com
+description: Software Ware Were Where ...
+baseurl: ""
+url: "https://tupol.github.io"
+github_username: tupol
+github_page: "https://github.com/tupol"
+github:
+  is_project_page: false
+
+paginate: 10
+excerpt_separator: <!--more-->
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+exclude: ["README.md", ".git", "Gemfile"]
+
+highlighter: rouge
+kramdown:
+  input: GFM
+  auto_ids: true
+  syntax_highlighter: rouge
+
+plugins:
+- jekyll-sitemap
