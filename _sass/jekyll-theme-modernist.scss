@@ -53,6 +53,8 @@ header {
   background: linear_gradient(#DDFBFC, #C6EAFA);
   background-image: url('/assets/header.jpeg');
   background-size: 800px 200px;
+  background-repeat: no-repeat;
+  background-position: 0px, 0px;
   position:relative;
   padding:15px 20px;
   border-bottom:1px solid #B2D2E1;
@@ -198,15 +200,6 @@ section {
   padding:15px 20px;
   font-size:15px;
   border-top:1px solid #fff;
-  background: linear_gradient(#fafafa, #DEDEDE 700px);
-  border-radius: 0 0 8px 8px;
-  position:relative;
-}
-
-section-footer {
-  padding:5px 5px;
-  font-size:10px;
-  border-top:1px solid #000;
   background: linear_gradient(#fafafa, #DEDEDE 700px);
   border-radius: 0 0 8px 8px;
   position:relative;

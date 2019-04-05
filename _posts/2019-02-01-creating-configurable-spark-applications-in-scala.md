@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Creating Configurable Spark Applications in Scala"
+title:  "Creating Configurable and Reusable Spark Applications in Scala"
 comments: true
 date: 2019-02-01 12:00:00
 categories: [programming]
@@ -10,7 +10,7 @@ tags: [scala, functional, spark]
 All of us can recall the first days of picking up a new technology and running the first *"Hello World"* or *"Count Words"* applications that get us started with a new language or a platform.
 <!--more-->
 
-Up to a certain point of exploring and creating demos or prototypes everything is nice, but when it comes to creating *production ready* configurable applications we all have a hard time and actually start thinking about the operational use of our applications and how they will be deployed to a production system. This is the moment when a few lines of beautiful code tend to get cluttered by a lot of configuration, wiring and setup.
+Up to a certain point of exploring and creating demos or prototypes everything is nice, the skies  are blue and the grass is green. When it comes to creating *production ready* reusable, configurable applications stormy clouds start to show on the horizon.  We need to start thinking about the operational use of our applications and how they will be deployed to a production system. This is the moment when a few lines of beautiful code tend to get cluttered by a lot of configuration, wiring and setup.
 
 When it comes to Apache Spark it gets even more complicated, setting up the Spark context and setting up the input sources and outputs. It would be really nice to have a simple framework that keeps our Spark code clean and uncluttered.
 
